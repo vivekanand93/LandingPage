@@ -13,14 +13,16 @@
 	<script type="text/javascript">
 		const onClick = ()=>{
 		return({alert('you have subscribed to the event');})
+			  document.getElementById("d").innerHTML = "Welcome new subscriber";
 		}
 	</script>
 	<form>
 		
 		<label for="email">your email address</label>
 		<input type="email" id="email" name="email">
-		<button type="button" name="button" onClick="onClick()" vlue="email">subscribe</button>
+		<button  type="button" name="button" onClick="onClick()" vlue="email">subscribe</button>
+		
 	</form>
-
+	<P id="d">            ***********************************************                   </P>
 </body>
 </html>
