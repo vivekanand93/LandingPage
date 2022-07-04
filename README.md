@@ -1,2 +1,3 @@
-# vivekproject-1
-first project using htmlcssjs
+# Landing Page
+
+project using html css JS
