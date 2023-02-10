@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Source+Code+Pro:ital@0;1&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(#ad8cea, #50dfb2);
+  background-repeat: no-repeat;
+}
+body.animate-body {
+  background: linear-gradient(180deg, #ad8cea, #50dfb2);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.desc {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.email-text {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.email-form {
+  display: flex;
+  flex-direction: column;
+  color: #f7f6f8;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+#name {
+  width: 30%;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+#email {
+  width: 30%;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.subsc-btn {
+  width: 10%;
+}
+.subscribe-new {
+  margin-left: 20px;
+  background-color: blue;
+  border-color: blue;
+  color: white;
+  padding: 8px;
+  border-radius: 300px;
+}
+div {
+  height: 600px;
+  width: 1580px;
+}
+.bot-img {
+  display: inline;
+  float: right;
+  margin-left: 20px;
+}
+section.animWrap {
+  height: 84vh;
+}
+section.animWrap h1 {
+  margin: 4rem 2rem;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+  font-size: 20px;
+}
+section.animWrap h2 {
+  margin: 4rem 2rem;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+  font-size: 20px;
+}
+footer {
+  bottom: 0;
+  background-color: rgba(164, 188, 196, 0.7);
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}

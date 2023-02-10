@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bitter:ital,wght@1,200&family=Square+Peg&family=Tapestry&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section.navigationWrap ul.navigation{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section.navigationWrap a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #2196F3;
+    /* margin-top: 1em; */
+}
+section.navigationWrap ul.navigation a i{
+    font-size: 2rem;
+    color: #2196F3;
+    margin: 1em 1em;
+    padding: 1em 1em;
+}
+.intro {
+    margin: 20px 30px;
+    font-size: 17px;
+}
+.intro h2 {
+    color:#0feb9a;
+    margin: 15px;
+    font-size: 2em;
+}
+.intro h3 {
+    color:#a6f01e;
+    font-size: 2em;
+}
+.intro address {
+    color:#1ce6e6;
+}
+.intro p {
+    color:#1ce6e6;
+    margin: 10px;
+    font-size: 1em;
+}
+.skillContainer1 {
+    width: 100%;
+    height: 0.9em;
+    background-color: #ddd;
+    font-weight: 900;
+}
+
+.skills {
+    text-align: right;
+    height: 0.8em;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+}
+
+.html {
+    width: 95%;
+    background-color: #04AA6D;
+}
+
+.css {
+    width: 80%;
+    background-color: #2196F3;
+}
+
+.js {
+    width: 65%;
+    background-color: #f44336;
+}
+
+.react {
+    width: 68%;
+    background-color: #808080;
+}
+
+pre{
+    color:#04AA6D;
+    font-weight: 600;
+}
+.blogContainer {
+    font-family: 'Amatic SC',
+        cursive;
+    margin: 20px 40px;
+    font-size: 17px;
+}
+
+.blogContainer h1 {
+    font-size: 3.5em;
+}
+.blogContainer h2 {
+    color:#2196F3;
+    font-weight: 800;
+}
+.blogContainer h3 {
+    color:#40c1e9;
+    font-weight: 800;
+}
+
+.blogitem {
+    font-size: 1.5em;
+    font-family: 'Bitter',
+        serif;
+    margin: 20px;
+}
+.tricksContainer {
+    font-size: 1em;
+}
+#tipswebdev h4{
+font-weight: 600;
+}
+.tricksItem {
+    font-size: 1em;
+    font-family: 'Bitter',
+        serif;
+    margin: 20px;
+}
+.websiteContainer {
+    padding: 12px;
+    margin: 20px 40px;
+    font-size: 17px;
+}
+.devPics img {
+    width: 175px;
+    height: 27vh;
+}
+
+.devInfo {
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 120px;
+}
+.hello {
+    font-family: 'Square Peg',
+        cursive;
+    font-size: 3.7em;
+}
+
+.name {
+    font-family: 'Bitter',
+        serif;
+    font-size: 3.8em;
+    font-weight: bold;
+}
+
+.about {
+    margin-top: 0.6em;
+    font-family: 'Tapestry',
+        cursive;
+    font-size: 2em;
+}
+
+.aboutbio {
+    color: #a6f01e;
+    margin-top: 0.6em;
+    font-family: 'Bitter', serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+.contactform {
+    padding: 0 30px;
+    /* padding-top: 110px; */
+    font-family: 'Amatic SC',
+        cursive;
+    font-size: 17px;
+    margin: 10px 13px;
+}
+
+.contactform h2 {
+    font-family: 'Bitter',
+        serif;
+    font-size: 2em;
+    /* padding: 12px 0; */
+    /* text-align: center; */
+}
+
+.contactform form div {
+    padding: 10px 0;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form {
+    margin: 0 30px;
+}
+
+.contactform form div input {
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp {
+    font-size: 13px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check-input {
+    width: 28px;
+    margin: 3px 0;
+}
+.serviceContainer {
+    display: flex;
+    padding: 12px;
+    /* margin: 20px 40px; */
+    font-size: 17px;
+}
+.serviceContainer h1 {
+    color: rgb(45, 117, 224);
+}
+.serviceContainer h2 {
+    color: rgb(182, 45, 224);
+}
+.serviceContainer h3 {
+    color: rgb(182, 45, 224);
+}
+.serviceContainer p {
+    color: rgb(155, 53, 121);
+}
+.serviceItem {
+    padding: 5px;
+    margin: 20px 30px;
+}
